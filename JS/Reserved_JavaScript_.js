@@ -10,5 +10,5 @@ var age = new 29();
 var eyeColor = new brown()
 function myFunction() {
 	document.getElementById("Keywords_and_Constructors").innerHTML = 
-	"Jack's last name is " + .lastName + "-True"
+	"Jack's last name is " + lastName + "-True"
 }

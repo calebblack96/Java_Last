@@ -2,7 +2,7 @@ var slideIndex = 0;
 
 
 function countdown() {
-	var seconds = document.getElementById("secdons").value;
+	var seconds = document.getElementById("seconds").value;
 	
 	function tick() {
 		seconds = seconds - 1;
