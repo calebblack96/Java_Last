@@ -1,7 +1,12 @@
-function demoElementById() {
+function not() {
 	var element = document.getElementById("here");
-	
-		element.style.backgroundColor = "RED";
-		element.style.color = "WHITE";
-		element.innerText += " more text";
+
+		document.body.style.backgroundColor = "red";
+		document.body.style.fontcolor = "blue";
+}
+
+function extra() {
+	var sentence = "I am a bear";
+	sentence += " I can do bear stuff.";
+	document.getElementById("concatenate").innerHTML = sentence;
 }
