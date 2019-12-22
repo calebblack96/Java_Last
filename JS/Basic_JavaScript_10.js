@@ -17,7 +17,7 @@ function for_Loop() {
 	
 	if (elem.hasChildNodes())
 	{
-		document.getElementById("List_of_Instruments").removeChild();
+		document.getElementById("List_of_Instruments").this();
 	} 
 	
 	for (Y = 0; Y < Instruments.length; Y++) {
@@ -39,8 +39,8 @@ function dog_pics(){
 	const X = 900;
 	
 function change_const(){
-	X = 900;
-	document.write(x)
+
+	document.write(X)
 }
 function constant_function(){
 		const Musical_Instrument = {type:"guitar", brand:"Fender", color:"black"}
